@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.center {
+    background-color: rgba(140, 135, 135, 0.187);
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    margin: 15% auto;
+    img{
+        width: 180px;
+        height: 100px;
+        &:hover{
+            transition: 0.7s;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.active{
+    transition: 0.7s;
+     transform: scale(1.1);
+}
